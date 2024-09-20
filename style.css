@@ -1,0 +1,39 @@
+nav{
+    top:0%;
+    margin-right: 100px;
+    left:400px ;
+  position: relative;
+  
+
+}
+.up{
+    font-size: 20px;
+     margin-right: 20px;
+}
+header{
+   margin-left: 45%;
+}
+.cent{
+    margin-top: 30px;
+    text-align: center;
+}
+table{
+    display: flex;
+align-items: center;
+justify-content: center;
+border: 1px solid #dddddd;;
+}
+td {
+
+padding: 10px;
+border: 3px solid rgb(0, 0, 0);
+}
+.even{
+    background-color: aqua;
+}
+.neven{
+    background-color: blueviolet;
+}
+p{
+    font-size: 15px;
+}
