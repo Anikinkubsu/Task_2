@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Виды поля ввода</title>
+    <link rel = "stylesheet" href  = "style.css">
+</head>
+<body><header>
+    <nav>
+        <div>
+            <a class="up" href="http://kubsu.ru"> Ссылка 1 меню</a>
+            <a class="up" href="http://kubsu.ru"> Ссылка 2</a>
+            <a class="up" href="http://kubsu.ru"> Ссылка 3</a>
+        </div>
+    </nav>
+    
+        <div style="width: 50px; height: 50px; border-radius: 50%; background-color: aqua; position: relative;right: 650px;">
+            <span style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Лого</span>
+          </div>
+        <h2 style="position: relative; top:-50px;"> Nike Pro</h2>
+    </header>
+    <div class="cent">
+        <a href="http://kubsu.ru">Главная страница сайта kubsu.ru</a><br>
+        <a href="https://kubsu.ru">Главная сайта kubsu.ru в протоколе HTTPS</a><br>
+        <a href="https://img.goodfon.ru/original/1680x1050/6/30/kot-kotenok-vzglyad.jpg"><img src="https://example.com/image.jpg" alt="Ссылка-изображение" /></a><br>
+        <a href="/page">Сокращенная ссылка на внутреннюю страниц</a> <br>
+        <a href="/">Сокращенная ссылка на главную страницу</a><br>
+        <a href="#fragment">Ссылка на фрагмент текущей страницы</a><br>
+        <a href="/page?param1=value1&param2=value2&param3=value3">Ссылка с тремя параметрами в URL</a><br>
+        <a href="/page?id=123">Ссылка с параметром id в URL</a><br>
+        <a href="page.html">Относительная ссылка на страницу в текущем каталоге</a><br>
+        <a href="about/page.html">Относительная ссылка траницу в каталоге about</a><br>
+        <a href="../page.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a><br>
+        <a href="../../page.html">Относительная ссылка на страницу в каталоге двумя уровнями выше</a><br>
+        <p>Контекстная <a href="https://www.kubsu.ru/">ссылка в тексте </a>абзаца.</p></li><br>
+        <a href="https://externalsite.com#section">Ссылка на фрагмент страницы стороннего сайта</a><br>
+        
+            <img src="Без имени.png" width="200" height="200" usemap="#map" alt="">
+            <map name="map">
+                <area shape="rect" coords="0,0,150,200" href="https://www.kubsu.ru/ru/university/departments" alt="Прямоугольная область">
+                <area shape="circle"area='' href="https://www.kubsu.ru/ru/fktipm" alt="Круглая область">
+            </map>
+        <br>
+        <a href="#">Ссылка с пустым href</a><br>
+        <a>Ссылка без href</a><br>
+        <a rel="nofollow" href="https://www.kubsu.ru/">Ссылка, по которой запрещен переход поисковикам</a><br>
+        <a rel="noindex" href="https://www.kubsu.ru/">Запрещенная для индексации поисковиками ссылка</a><br>
+      
+            <a href="https://www.kubsu.ru/ru/university/departments" title="Описание страницы 1">Страница 1</a><br>
+            <a href="https://www.kubsu.ru/ru/fktipm" title="Описание страницы 2">Страница 2</a><br>
+            <a href="https://example.com/page3" title="Описание страницы 3">Страница 3</a><br>
+    
+        <a href="ftp://username:password@ftp.example.com/file.txt">FTP-ссылка с авторизацией</a><br>
+   </div>
+
+
+  
+    <table>
+        <tr>
+            <td>Название</td>
+            <td>Название 2</td>
+            <td>Название 3</td>
+            <td>Название 4</td>
+        </tr>
+        <tr>
+            <td class="neven">1</td>
+            <td class="even">2</td>
+            <td class="neven">3</td>
+            <td class="even">4</td>
+        </tr>
+
+        <tr>
+            <td class="neven">1</td>
+            <td class="even">2</td>
+            <td class="neven">3</td>
+            <td class="even">4</td>
+        </tr>
+        <tr>
+            <td class="neven">1</td>
+            <td class="even">2</td>
+            <td class="neven">3</td>
+            <td class="even">4</td>
+        </tr>
+        <tr>
+            <td class="neven">1</td>
+            <td class="even">2</td>
+            <td class="neven">3</td>
+            <td class="even">4</td>
+        </tr>
+        <tr>
+            <td class="neven">1</td>
+            <td class="even">2</td>
+            <td class="neven">3</td>
+            <td class="even">4</td>
+        </tr>
+    </table>
+ 
+    <form>
+        <div class="cent">
+        <div>
+            <label for="text">Ваше ФИО</label>
+            <input type="text" id="text" name="text" required>
+        </div>
+        <div>
+            <label for="tel">Введите номер телефона:</label>
+            <input type="tel" id="tel" name="tel" required>
+        </div>
+        <div>
+            <label for="email">Введите ваш email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+
+
+
+
+        <div>
+            <label for="date">Когда вы родились?</label>
+            <input type="date" id="date" name="date" required>
+        </div>
+        <div>
+            <p> Ваш пол</p>
+            <input type="radio" name = "radio"><a> Мужской</a>
+            <input type="radio" name = "radio"><a> Женский</a>
+        </div>
+
+
+
+
+
+
+        <div>
+            <label for="select">Выберите ваш любимый язык программирования:</label>
+            <select id = "select" name = "field-name-4[]"  style="width: 350px"
+                size="8" multiple>
+
+                <option value="moscow">Pascal</option>
+                <option value="spb">C</option>
+                <option value="krasnodar">C++</option>
+                <option value="krasnodar">JavaScript</option>
+                <option value="krasnodar">PHP</option>
+                <option value="krasnodar">Python</option>
+                <option value="krasnodar">Java</option>
+                <option value="krasnodar">Haskel</option>
+                <option value="krasnodar">Clojure</option>
+                <option value="krasnodar">Prolog</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="textarea">Введите биографию:</label>
+            <textarea id="textarea" name="textarea" rows="4" cols="50" required></textarea>
+        </div>
+        <div>
+            
+            <input type="checkbox" id = "checkbox"><label for="checkbox">  с контрактом ознакомлен </label>
+
+        </div>
+        <div>
+            <button type="submit">Сохранить</button>
+        </div>
+    </div>
+    </form>
+    <footer >
+        <h3>(С) Сергей Синица</h3>
+    </footer>
+</body>
+</html>
