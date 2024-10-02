@@ -42,7 +42,7 @@ footer {
 }
 
 .h1__PC {
-	display: none;
+	display: contents;;
 }
 
 ul {
@@ -56,10 +56,9 @@ ul {
 
 main {
 	background-color: #3CD0FA;
-	max-width: 100%;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
+		max-width: 960px;
+		margin: auto;
+		display: block;
 }
 
 ol {
@@ -115,3 +114,4 @@ a {
 header {
 	background-color: #7c7c7c;
 }
+
